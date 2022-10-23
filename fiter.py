@@ -12,6 +12,7 @@ def filter_date(list_of_events):
     return schedule
 list_of_events = [{'start': '2020-12-13T08:30:00+02:00', 'end': '2020-12-13T09:30:00+02:00', 'summary': 'po sosati lu vdovicenco'}, {'start': '2020-12-13T22:30:00+02:00', 'end': '2020-12-13T23:30:00+02:00', 'summary': 'vecerniii blowjob de la vdovicenco'}]
 filtered_data = filter_date(list_of_events)
+# Vdova ne nada
 
 gap = GANPlanner('forest.obj', 'DSI.obj')
 best_schedule = gap.generate()
